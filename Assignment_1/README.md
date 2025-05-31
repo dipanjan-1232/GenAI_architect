@@ -1,1 +1,0 @@
-# GenAI_architect
