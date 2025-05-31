@@ -1,0 +1,25 @@
+{
+    "company_name": "Vedanta Limited",
+    "stock_code": "VEDL",
+    "newsdesc": "Vedanta Limited announced its Q4 results for the financial year ending March 31, 2025. The company is preparing for a significant demerger, with shareholders supporting the split into five independent entities focused on different business sectors.",
+    "sentiment": "Positive",
+    "people_names": [
+        "Anil Agarwal",
+        "Navin Agarwal"
+    ],
+    "place_names": [
+        "Mumbai",
+        "India"
+    ],
+    "other_companies_referred": [
+        "Hindustan Zinc",
+        "Konkola Copper Mine"
+    ],
+    "related_industries": [
+        "Natural Resources",
+        "Mining",
+        "Oil and Gas"
+    ],
+    "market_implications": "The approval of the demerger could lead to increased market focus on the separate entities, potentially unlocking value for shareholders and affecting stock performance positively.",
+    "confidence_score": 85
+}

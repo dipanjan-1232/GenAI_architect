@@ -1,0 +1,24 @@
+{
+    "company_name": "Bajaj Finserv Ltd",
+    "stock_code": "BOM:532978",
+    "newsdesc": "Bajaj Finserv has reported a 10% rise in total income and a 14% jump in Q4FY25 net profit, highlighting strategic shifts in its product offerings. The company is also facing a fine of \u20b9 850 crore for tax evasion while exploring partnerships for future growth, including a strategic collaboration with Bharti Airtel in financial services.",
+    "sentiment": "Positive",
+    "people_names": [],
+    "place_names": [
+        "India",
+        "New Delhi"
+    ],
+    "other_companies_referred": [
+        "Bajaj Finance",
+        "Bharti Airtel",
+        "Allianz SE"
+    ],
+    "related_industries": [
+        "Financial Services",
+        "Insurance",
+        "Consumer Finance",
+        "Banking"
+    ],
+    "market_implications": "The positive performance in income and profit suggests robust growth for Bajaj Finserv, while the strategic partnership with Bharti Airtel aims to enhance market access and service delivery in financial products. However, the tax evasion penalty poses risks to its financial standing and reputation.",
+    "confidence_score": 85
+}

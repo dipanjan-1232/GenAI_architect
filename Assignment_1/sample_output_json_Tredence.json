@@ -1,0 +1,31 @@
+{
+    "company_name": "Tredence Data Science Solutions",
+    "stock_code": "Not Publicly Traded",
+    "newsdesc": "Tredence has made notable strides in the data science and AI sector, being named the 2025 Google Cloud Industry Solutions Partner of the Year for CPG. The company is also recognized as one of America's Fastest-Growing Private Companies on the 2024 Inc. 5000 List. Tredence is set to host the Infinity AI Hackathon in March 2025 and plans to hire 1,700 people in 2025, focusing on generative AI.",
+    "sentiment": "Positive",
+    "people_names": [
+        "Pavan Nanjundaiah",
+        "Sumit Mehra",
+        "Shub Bhowmick",
+        "Shashank Dubey"
+    ],
+    "place_names": [
+        "Las Vegas",
+        "Bangalore",
+        "San Jose",
+        "California"
+    ],
+    "other_companies_referred": [
+        "Google Cloud",
+        "Snowflake"
+    ],
+    "related_industries": [
+        "Data Science",
+        "Artificial Intelligence",
+        "Information Technology",
+        "Consumer Packaged Goods",
+        "Retail"
+    ],
+    "market_implications": "With the rising prominence of AI and data-driven solutions, Tredence's strong growth trajectory may lead to increased investor interest, particularly as they expand their workforce and capabilities in generative AI.",
+    "confidence_score": 85
+}

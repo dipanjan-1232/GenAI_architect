@@ -1,0 +1,29 @@
+{
+    "company_name": "Tiger Analytics India Consulting Private Limited",
+    "stock_code": "TIGERANALYTICS",
+    "newsdesc": "Tiger Analytics, a Silicon Valley-based AI consulting firm, has opened its first office in Patna, Bihar, making it the first US IT company to enter the state. The company aims to reach $1 billion in revenue within five years, democratizing AI and data analytics solutions across various sectors including retail and online advertising. Founded in 2011 by Mahesh Kumar, Tiger Analytics focuses on generating business value through advanced analytics and data science. The company operates from Santa Clara, California, and has a strong base of over 5,800 employees.",
+    "sentiment": "Positive",
+    "people_names": [
+        "Mahesh Kumar"
+    ],
+    "place_names": [
+        "Kanchipuram",
+        "Tamil Nadu",
+        "Bihar",
+        "Patna",
+        "Santa Clara",
+        "California"
+    ],
+    "other_companies_referred": [
+        "Fractal Analytics",
+        "Tredence",
+        "ZS Associates"
+    ],
+    "related_industries": [
+        "Information Technology",
+        "Analytics",
+        "Artificial Intelligence"
+    ],
+    "market_implications": "With the opening of new offices and the goal to leverage AI for business applications, Tiger Analytics is poised to capture significant market share in the analytics consulting space and address the growing demand for data-driven solutions across industries.",
+    "confidence_score": 85
+}
