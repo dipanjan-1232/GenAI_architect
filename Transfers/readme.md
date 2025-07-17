@@ -1,56 +1,36 @@
-Hi Sanjay, Vinodh,
+"ENTITY_MATCH_MISMATCH": '''
+  You are an expert in the mining industry, who can understand the user query intent and can extract key entities from the given user query like key KPIs, mine (site) names (GP3, Suliyari, Talabira, PEKB, all sites, etc.), time periods, etc.
+  For a given user query, give the entities that do not match the given similar queries and give the output in the mismatches_list and tell whether there is a KPI mismatch in the 'kpi_mismatch' key of the output or not.
 
-We have successfully implemented multiple improvements and have deployed an enhanced version of Digichat. Below is a summary of the current system performance and the updates made:
+  Some examples of KPIs and their corresponding domains are {kpi_examples}
+  
+  user query: 
+  {user_query}
 
-Accuracy Report
-(Please note: The figures reflect only the accuracy of SQL query generation by the Text2SQL system. Summarizer accuracy is not included. This evaluation also excludes data gaps arising from missing or incorrect source table values, as observed in tables like ct_equipment_others and capex_summary, particularly for FTM. These gaps have been communicated to Hari.)
+  similar_query(s):
+  {similar_queries}
 
-Metric	Count
-Total questions tested	171
-Correct queries (Score = 1)	150
-Incorrect queries (Score = 0)	21
-Accuracy	0.88
+  Give me the output in the following format {format_instructions}:
 
-Key System Enhancements
-Improved Value Retriever:
-Reduced hallucinations through enhanced value retrieval logic.
+  {{
+    "mismatches": {{"this is my similar query 1 as is without any modification": {{"mismatch_list": ["mismatched_entity_1", "mismatched_entity_2"] , "kpi_mismatch": 1}},
+                   "this is my similar query 2 as is without any modification": {{"mismatch_list": ["mismatched_entity_3", "mismatched_entity_4"] , "kpi_mismatch": 0}},
+                   "this is my similar query 3 as is without any modification": {{"mismatch_list": ["mismatched_entity_6", "mismatched_entity_5"] , "kpi_mismatch": 1}}
+                   }}
+  }}
 
-Heuristic Query Refiner:
-Intelligent handling of string lowercasing, date formatting, and other syntactic inconsistencies.
-
-Context Management Upgrade:
-Digichat now supports multi-turn conversations, not just isolated Q&A.
-(See attached screenshot – further improvements are ongoing.)
-
-Enhanced Summarizer Tools:
-Integrated both add and average summarizer tools.
-(Modifications are in progress.)
-
-M-Schema & Rule Updates:
-Multiple refinements to improve interpretation and generation quality.
-
-Intent Classification Agent:
-Achieved ~98% accuracy in classifying user intents.
-
-Rule Configuration via Delta Table:
-Migrated rule configurations from static config files to a Databricks Delta table for easier management.
-
-Chart Rendering Enhancements:
-
-Suppression of charts when data points are insufficient.
-
-General rendering improvements underway.
-
-Token Optimization for Cost Savings:
-Reduced token usage by pruning irrelevant mschemas based on value retriever output – also led to improved latency.
-
-You may start testing the current solution without QQA.
-QQA for Finance is expected to be ready by 16/07/2025.
-
-Please find attached the Excel sheet listing all the questions used for testing.
-Feel free to reach out for any questions, clarifications, or support needed.
-
-Best regards,
-[Your Name]
-[Your Position]
-[Your Contact Information]
+  ## Instructions:
+  1. Always make sure you do not rephrase or modify the queries within the output. The queries should be *as is" in the mismatches dictionary output.
+  2. Always follow the above output format.
+  3. Do not include any explanations or justifications.
+  4. Do not include any additional text.
+  5. Compare the user query with only the given similar query(s).
+  6. For a given query, if no mismatches are found return as per he format below only for that particular query.
+     Eg. 
+     {{"mismatches": 
+     {{
+       "query one": {{"mismatch_list": [], "kpi_mismatch": 0}},
+       "query two": {{"mismatch_list": ["mismatched_entity_1"], "kpi_mismatch": 1}}
+      }}
+    }}
+  ''',
