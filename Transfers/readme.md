@@ -1,3 +1,22 @@
+from dtaidistance import dtw_ndim
+
+# Example: Two multi-dimensional time series
+time_series_1 = [[1, 2], [2, 3], [3, 4]]
+time_series_2 = [[1, 1], [2, 2], [3, 3]]
+
+# Compute DTW distance for multi-dimensional data
+distance = dtw_ndim.distance(time_series_1, time_series_2)
+print(f"DTW Distance: {distance}")
+
+
+
+
+
+
+
+
+
+
 
 #1. Instead of hard coding, can we use something like this:
  
